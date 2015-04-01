@@ -11,7 +11,7 @@
  var insertFileLink = function(file) {
    jQuery.markItUp({
      openWith:'"',
-     closeWith:'":'+file,
+     closeWith:'":/'+file,
      placeHolder:file,
      file:file,
     className:'popup-linkmedia'
